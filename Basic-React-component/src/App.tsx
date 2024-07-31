@@ -1,6 +1,7 @@
 
 import './App.css'
 import Counter from './Counter'
+import DataFetcher from './DataFetcher'
 import HelloWorld from './HelloWorld'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
       <HelloWorld/>
       <Counter/>
+      <DataFetcher/>
     </>
   )
 }
