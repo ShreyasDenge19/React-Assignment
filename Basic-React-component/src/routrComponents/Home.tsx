@@ -1,5 +1,4 @@
 import React from "react";
-import HelloWorld from "../HelloWorld";
 import Counter from "../Counter";
 import DataFetcher from "../DataFetcher";
 

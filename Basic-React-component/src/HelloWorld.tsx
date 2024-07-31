@@ -1,19 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HelloWorld: React.FC = () =>{
     return (
         <nav className="bg-gray-800 p-4">
-            <ul className="flex space-x-4">
-                <li>
-                    <a href="#home" className="text-white hover:text-gray-400">Home</a>
-                </li>
-                <li>
-                <a href="#about" className="text-white hover:text-gray-400">About</a>
-                </li>
-                <li>
-                    <a href="#contact" className="text-white hover:text-gray-400">Contact</a>
-                </li>
-            </ul>
+            <div className="container flex mx-auto justify-between items-center">
+          <div className="text-xl font-extrabold">LOGO</div>
+          <div className="space-x-6">
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+          </div>
+        </div>
         </nav>
     );
 };
